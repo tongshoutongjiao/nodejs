@@ -1,0 +1,12 @@
+{
+  "name": "hellow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodexx index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\issuser\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\issuser\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\issuser\bin;C:\Python27;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;%NRM_PATH%;C:\Program Files\TortoiseSVN\bin;C:\wamp；;C:\Users\issuser\AppData\Local\Microsoft\WindowsApps;C:\Users\issuser\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\issuser\AppData\Roaming\npm;C:\dev\nvm;C:\dev\nodejs;C:\Users\issuser\AppData\Local\Microsoft\WindowsApps;C:\Users\issuser\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\issuser\AppData\Roaming\npm;C:\Program Files\dev\nvm;C:\Program Files\dev\nodejs;C:\Users\issuser\AppData\Local\Microsoft\WindowsApps;C:\Users\issuser\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\issuser\AppData\Roaming\npm;C:\Program Files\dev\nvm;C:\Program Files\dev\nodejs;C:\Users\issuser\AppData\Local\Microsoft\WindowsApps;C:\Users\issuser\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\issuser\AppData\Roami;C:\dev\nvm;C:\Program;C:\Program Files\nodejs;C:\Users\issuser\AppData\Local\Microsoft\WindowsApps;C:\Users\issuser\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\issuser\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\issuser\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:96722:59)
+      at Object.<anonymous> (C:\Users\issuser\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89033:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\issuser\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\issuser\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "hello1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "es-checker": "^1.4.2",
+      "vue": "^2.6.11"
+    },
+    "devDependencies": {
+      "art-template": "^4.13.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
